@@ -1,0 +1,50 @@
+{
+	"name": "Ram",
+	"plugin-id": "Sprite",
+	"sid": 203779475362492,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 409,
+						"height": 143,
+						"originX": 0.5378973105134475,
+						"originY": 1.5314685314685315,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6511750,
+						"collisionPoly": {
+							"points": [
+								0.04156479217603912,
+								0.006993006993006993,
+								0.9975550122249389,
+								0.11188811188811189,
+								0.9975550122249389,
+								0.993006993006993,
+								0.0024449877750611247,
+								0.993006993006993
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 621380298836067,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

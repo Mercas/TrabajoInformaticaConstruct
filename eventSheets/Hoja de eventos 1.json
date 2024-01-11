@@ -1,5 +1,1848 @@
 {
 	"name": "Hoja de eventos 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Clientes",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 352249476546503
+		},
+		{
+			"eventType": "variable",
+			"name": "Points",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 685522549893422
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 474338757882612,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Play"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 268163656805736,
+					"parameters": {
+						"audio-file": "clic",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Play",
+					"sid": 834134654142836,
+					"parameters": {
+						"opacity": "70"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 336944656263333,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Play",
+					"sid": 239181880930903,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 268390544572930,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Play",
+					"sid": 210794201957239,
+					"parameters": {
+						"opacity": "20"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 622365262250337,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Play",
+					"sid": 254137594589847,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 499552757139877,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-y",
+					"objectClass": "Logo",
+					"sid": 202469644889024,
+					"parameters": {
+						"y": "400"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Texto3",
+					"sid": 814911920384091,
+					"parameters": {
+						"opacity": "70"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 287817427261860,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-y",
+					"objectClass": "Logo",
+					"sid": 273082557743965,
+					"parameters": {
+						"y": "300"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Texto3",
+					"sid": 764064807772129,
+					"parameters": {
+						"opacity": "20"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 511853787715496,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-y",
+					"objectClass": "Logo",
+					"sid": 407641173180628,
+					"parameters": {
+						"y": "200"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Texto3",
+					"sid": 465485230291602,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 721940081539016,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-y",
+					"objectClass": "Logo",
+					"sid": 732534860420663,
+					"parameters": {
+						"y": "100"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 617331210458357,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-y",
+					"objectClass": "Logo",
+					"sid": 372565856563049,
+					"parameters": {
+						"y": "0"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 233323568518687,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-y",
+					"objectClass": "Logo",
+					"sid": 995738287333251,
+					"parameters": {
+						"y": "-100"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 241336443145954,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-y",
+					"objectClass": "Logo",
+					"sid": 531747829886072,
+					"parameters": {
+						"y": "-200"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 969356635598006,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 570403063010912,
+					"parameters": {
+						"variable": "Points",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 761775643722010,
+					"parameters": {
+						"variable": "Clientes",
+						"value": "0"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 682383982500548,
+					"parameters": {
+						"audio-file": "Music",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 231764727262763,
+					"parameters": {
+						"layout": "Escena 2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 900690714638770,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				}
+			],
+			"sid": 986375788007765
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 666934592530461,
+					"parameters": {
+						"variable": "Clientes",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 977160127554161,
+					"parameters": {
+						"layout": "GameOver"
+					}
+				}
+			],
+			"sid": 945601757447432
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 457715466185006,
+					"parameters": {
+						"variable": "Clientes",
+						"comparison": 0,
+						"value": "2"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 204706265168530,
+					"parameters": {
+						"variable": "Points",
+						"comparison": 0,
+						"value": "8"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 689175277539247,
+					"parameters": {
+						"audio-file": "coin",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "S",
+					"sid": 930050274322965,
+					"parameters": {
+						"opacity": "100"
+					}
+				}
+			],
+			"sid": 351847481973414
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 620857647805745,
+					"parameters": {
+						"variable": "Clientes",
+						"comparison": 1,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "S",
+					"sid": 976044568571239,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "A",
+					"sid": 347447513698250,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "F",
+					"sid": 321223528801489,
+					"parameters": {
+						"opacity": "0"
+					}
+				}
+			],
+			"sid": 672743449169921
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 207961025142330,
+					"parameters": {
+						"variable": "Clientes",
+						"comparison": 0,
+						"value": "2"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 550842304656279,
+					"parameters": {
+						"variable": "Points",
+						"comparison": 3,
+						"value": "7"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 678789062808881,
+					"parameters": {
+						"variable": "Points",
+						"comparison": 5,
+						"value": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "A",
+					"sid": 361061622346521,
+					"parameters": {
+						"opacity": "100"
+					}
+				}
+			],
+			"sid": 783646785275643
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 856963936708139,
+					"parameters": {
+						"first-value": "Clientes",
+						"comparison": 0,
+						"second-value": "2"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 998252855286460,
+					"parameters": {
+						"first-value": "Points",
+						"comparison": 3,
+						"second-value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "F",
+					"sid": 617063301517423,
+					"parameters": {
+						"opacity": "100"
+					}
+				}
+			],
+			"sid": 158344065243563
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 705659202383865
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 566897640988794,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Texto3",
+					"sid": 313758521359603,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Texto2",
+					"sid": 335262296768617,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Texto",
+					"sid": 594387820043302,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "CLIENTE",
+					"sid": 263524087955719,
+					"parameters": {
+						"opacity": "20"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "CLIENTE2",
+					"sid": 862759407665537,
+					"parameters": {
+						"opacity": "20"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 409456589821547,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "CLIENTE",
+					"sid": 789503917317742,
+					"parameters": {
+						"opacity": "70"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "CLIENTE2",
+					"sid": 502328780538519,
+					"parameters": {
+						"opacity": "70"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Texto3",
+					"sid": 222717318841208,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Texto2",
+					"sid": 906041392918225,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Texto",
+					"sid": 685101511318008,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 280223057716118,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "CLIENTE",
+					"sid": 689809973690377,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "CLIENTE2",
+					"sid": 433705768204894,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Texto3",
+					"sid": 849882157982753,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Texto2",
+					"sid": 134972488123919,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Texto",
+					"sid": 701658727702821,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 197207049039262,
+					"parameters": {
+						"seconds": "0.3"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "textoCliente",
+					"sid": 218091000259769,
+					"parameters": {
+						"opacity": "20"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "textoCliente2",
+					"sid": 777961920485437,
+					"parameters": {
+						"opacity": "20"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 306080627860703,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "textoCliente",
+					"sid": 524635102894371,
+					"parameters": {
+						"opacity": "70"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "textoCliente2",
+					"sid": 415540648522973,
+					"parameters": {
+						"opacity": "70"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 600907563136497,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "textoCliente",
+					"sid": 882038527816999,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "textoCliente2",
+					"sid": 611898172472602,
+					"parameters": {
+						"opacity": "100"
+					}
+				}
+			],
+			"sid": 736560848711047
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 260018671869020,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 204342170076369,
+					"parameters": {
+						"audio-file": "clic",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 908447445736637
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 805021482206007,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "FuenteAlimentación"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "FuenteAlimentación",
+					"sid": 852128501381805,
+					"parameters": {
+						"x": "792",
+						"y": "749"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "FuenteDeAlimentación2",
+					"sid": 454028989580085,
+					"parameters": {
+						"x": "388",
+						"y": "946"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "FuenteAlimentación",
+					"sid": 415954599273045,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 969675470502887
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 776040696385669,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "FuenteDeAlimentación2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "FuenteDeAlimentación2",
+					"sid": 383870050521051,
+					"parameters": {
+						"x": "792",
+						"y": "749"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "FuenteAlimentación",
+					"sid": 518588882268662,
+					"parameters": {
+						"x": "211",
+						"y": "946"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "FuenteDeAlimentación2",
+					"sid": 571693596072824,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 238655108015582
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 905703549451952,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Proc"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Proc",
+					"sid": 117782992345589,
+					"parameters": {
+						"x": "794",
+						"y": "466"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Proc2",
+					"sid": 873194920971402,
+					"parameters": {
+						"x": "598",
+						"y": "955"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Proc3",
+					"sid": 207490137211170,
+					"parameters": {
+						"x": "664",
+						"y": "955"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Proc",
+					"sid": 497784678311677,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 622868792741648
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 291419186328302,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Proc2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Proc2",
+					"sid": 164819642150522,
+					"parameters": {
+						"x": "794",
+						"y": "466"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Proc",
+					"sid": 984753699583674,
+					"parameters": {
+						"x": "532",
+						"y": "955"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Proc3",
+					"sid": 435709087590889,
+					"parameters": {
+						"x": "664",
+						"y": "955"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Proc2",
+					"sid": 924902114223221,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 602609586018597
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 775344572408715,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Proc3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Proc3",
+					"sid": 319931187535466,
+					"parameters": {
+						"x": "794",
+						"y": "466"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Proc",
+					"sid": 653335191871628,
+					"parameters": {
+						"x": "532",
+						"y": "955"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Proc2",
+					"sid": 822393430731911,
+					"parameters": {
+						"x": "598",
+						"y": "955"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Proc3",
+					"sid": 175593229128306,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 926920441209760
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 178541542884777,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Ram"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Ram",
+					"sid": 632236564102380,
+					"parameters": {
+						"x": "912",
+						"y": "522"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Ram2",
+					"sid": 937107168487348,
+					"parameters": {
+						"x": "1028",
+						"y": "974"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Ram",
+					"sid": 567820848421474,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 774737312753429
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 427332280110870,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Ram2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Ram2",
+					"sid": 340206702051563,
+					"parameters": {
+						"x": "0911.30309",
+						"y": "492.944865"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Ram",
+					"sid": 291709050492315,
+					"parameters": {
+						"x": "921",
+						"y": "1008"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Ram2",
+					"sid": 523925624244713,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 445514200795351
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 191946030076851,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Grafica"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Grafica",
+					"sid": 254172967969157,
+					"parameters": {
+						"x": "821",
+						"y": "597"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Grafica2",
+					"sid": 420218097945709,
+					"parameters": {
+						"x": "1499",
+						"y": "949"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Grafica3",
+					"sid": 492004923312983,
+					"parameters": {
+						"x": "1719",
+						"y": "975"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Grafica",
+					"sid": 956154535774041,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 771125724906667
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 980217694688032,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Grafica2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Grafica2",
+					"sid": 792450963420592,
+					"parameters": {
+						"x": "821",
+						"y": "597"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Grafica",
+					"sid": 923761767404404,
+					"parameters": {
+						"x": "1304",
+						"y": "948"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Grafica3",
+					"sid": 364105817100218,
+					"parameters": {
+						"x": "1719",
+						"y": "975"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Grafica2",
+					"sid": 594447738696567,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 861169234336928
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 586292284561770,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Grafica3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Grafica3",
+					"sid": 505454417356379,
+					"parameters": {
+						"x": "811",
+						"y": "620"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Grafica2",
+					"sid": 916260322723988,
+					"parameters": {
+						"x": "1499",
+						"y": "949"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Grafica",
+					"sid": 164760594983878,
+					"parameters": {
+						"x": "1304",
+						"y": "948"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Grafica3",
+					"sid": 131783619136360,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 504498275910363
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 520681233473995,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Pase"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 343091900228473,
+					"parameters": {
+						"variable": "Clientes",
+						"value": "1"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 672759177224712,
+					"parameters": {
+						"layout": "Escena 3"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 115327416403112,
+					"parameters": {
+						"audio-file": "coin",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 620385383308937
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 435322790296629,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Play2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 504120399003450,
+					"parameters": {
+						"variable": "Clientes",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 521624801392134,
+					"parameters": {
+						"variable": "Points",
+						"value": "0"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 674598796215453,
+					"parameters": {
+						"layout": "MainMenu"
+					}
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 459835498952481
+				}
+			],
+			"sid": 649019501409133
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioCPU",
+					"sid": 755212023013380,
+					"parameters": {
+						"object": "Proc3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 272384554759517,
+					"parameters": {
+						"variable": "Points",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 152775057458133
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioCPU",
+					"sid": 154822016143944,
+					"parameters": {
+						"object": "Proc2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 394938725298058,
+					"parameters": {
+						"variable": "Points",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 574609815553643
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioCPU",
+					"sid": 458266778249794,
+					"parameters": {
+						"object": "Proc"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 760923310292680,
+					"parameters": {
+						"variable": "Points",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 954602639724090
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioFuente",
+					"sid": 181283299767858,
+					"parameters": {
+						"object": "FuenteDeAlimentación2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 626322771251677,
+					"parameters": {
+						"variable": "Points",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 891915631535476
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioFuente",
+					"sid": 148820463697036,
+					"parameters": {
+						"object": "FuenteAlimentación"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 466647099329367,
+					"parameters": {
+						"variable": "Points",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 954457012942197
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioGPU",
+					"sid": 150430736704314,
+					"parameters": {
+						"object": "Grafica"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 243896718925534,
+					"parameters": {
+						"variable": "Points",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 485896172092287
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioGPU",
+					"sid": 936048078199530,
+					"parameters": {
+						"object": "Grafica2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 563025784866008,
+					"parameters": {
+						"variable": "Points",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 642548727147692
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioGPU",
+					"sid": 237072781787470,
+					"parameters": {
+						"object": "Grafica3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 850287631269794,
+					"parameters": {
+						"variable": "Points",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 147623596875348
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioRAM",
+					"sid": 662647707523213,
+					"parameters": {
+						"object": "Ram"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 594649067743360,
+					"parameters": {
+						"variable": "Points",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 465734664644863
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioRAM",
+					"sid": 704675691967140,
+					"parameters": {
+						"object": "Ram2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 871621315798935,
+					"parameters": {
+						"variable": "Points",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 824551293478682
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioCPU2",
+					"sid": 309244627227516,
+					"parameters": {
+						"object": "Proc"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 243600543905508,
+					"parameters": {
+						"variable": "Points",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 160922112655368
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioCPU2",
+					"sid": 421761053162246,
+					"parameters": {
+						"object": "Proc2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 536312973648029,
+					"parameters": {
+						"variable": "Points",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 217375212731953
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioCPU2",
+					"sid": 366566928541406,
+					"parameters": {
+						"object": "Proc3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 503501126819075,
+					"parameters": {
+						"variable": "Points",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 489376022377640
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioFuente2",
+					"sid": 307474128561144,
+					"parameters": {
+						"object": "FuenteAlimentación"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 795830258729639,
+					"parameters": {
+						"variable": "Points",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 325245855508881
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioFuente2",
+					"sid": 122259538513964,
+					"parameters": {
+						"object": "FuenteDeAlimentación2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 492496282817305,
+					"parameters": {
+						"variable": "Points",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 752262700600057
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioGPU2",
+					"sid": 501903292248500,
+					"parameters": {
+						"object": "Grafica"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 184389869884736,
+					"parameters": {
+						"variable": "Points",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 418912806956718
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioGPU2",
+					"sid": 888947832259315,
+					"parameters": {
+						"object": "Grafica2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 563411983473703,
+					"parameters": {
+						"variable": "Points",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 391511388556089
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioGPU2",
+					"sid": 777836237605520,
+					"parameters": {
+						"object": "Grafica3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 101772227911060,
+					"parameters": {
+						"variable": "Points",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 516734223087371
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioRAM2",
+					"sid": 889563800364732,
+					"parameters": {
+						"object": "Ram"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 908110962227195,
+					"parameters": {
+						"variable": "Points",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 449847758551592
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "SitioRAM2",
+					"sid": 183998275362305,
+					"parameters": {
+						"object": "Ram2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 234293122619266,
+					"parameters": {
+						"variable": "Points",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 446299893121897
+		}
+	],
 	"sid": 413570055145182
 }

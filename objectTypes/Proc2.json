@@ -1,0 +1,50 @@
+{
+	"name": "Proc2",
+	"plugin-id": "Sprite",
+	"sid": 695346353171767,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 409,
+						"height": 378,
+						"originX": 0.6136919315403423,
+						"originY": 0.582010582010582,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4672532,
+						"collisionPoly": {
+							"points": [
+								0.04156479217603912,
+								0.0026455026455026454,
+								0.9975550122249389,
+								0.04497354497354497,
+								0.9584352078239609,
+								0.9973544973544973,
+								0.0024449877750611247,
+								0.955026455026455
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 606159048143870,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

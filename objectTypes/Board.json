@@ -1,0 +1,56 @@
+{
+	"name": "Board",
+	"plugin-id": "Sprite",
+	"sid": 627432880248472,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 10001,
+						"height": 3231,
+						"originX": 0.5,
+						"originY": -0.5476632621479418,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1417486,
+						"collisionPoly": {
+							"points": [
+								0.16148385161483853,
+								0.00030950170225936243,
+								0.9166083391660834,
+								0.06468585577220674,
+								0.9999000099990001,
+								0.4193748065614361,
+								0.9999000099990001,
+								0.9996904982977406,
+								0.00009999000099990002,
+								0.9996904982977406,
+								0.00009999000099990002,
+								0.3549984524914887,
+								0.098990100989901,
+								0.032497678737233054
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 684638885767539,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

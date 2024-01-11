@@ -5,10 +5,90 @@
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [],
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Botón",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Texto",
+			"author": "Scirra",
+			"bundled": false
+		}
+	],
 	"uniqueId": "jb59lycjlrc",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"Background",
+			"Logo",
+			"Mouse",
+			"Play",
+			"Board",
+			"Audio",
+			"S",
+			"A",
+			"F",
+			"CLIENTE",
+			"CLIENTE2",
+			"caja",
+			"textoCliente",
+			"placaBase",
+			"Botón",
+			"FuenteAlimentación",
+			"FuenteDeAlimentación2",
+			"Proc",
+			"Proc2",
+			"Proc3",
+			"Ram",
+			"Ram2",
+			"Grafica",
+			"Grafica2",
+			"Grafica3",
+			"Pase",
+			"textoCliente2",
+			"Pase2",
+			"flecha",
+			"Reintentar",
+			"ssd",
+			"SitioCPU",
+			"SitioFuente",
+			"SitioRAM",
+			"SitioGPU",
+			"SitioCPU2",
+			"Play2",
+			"SitioFuente2",
+			"SitioGPU2",
+			"SitioRAM2",
+			"Texto",
+			"Texto2",
+			"Texto3"
+		],
 		"subfolders": []
 	},
 	"autosaveData": null,
@@ -19,7 +99,10 @@
 	},
 	"layouts": {
 		"items": [
-			"Escena 1"
+			"MainMenu",
+			"Escena 2",
+			"GameOver",
+			"Escena 3"
 		],
 		"subfolders": []
 	},
@@ -35,11 +118,37 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "clic.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 711034369713784,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "coin.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 105669479132004,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "Music.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 969433934367960,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"video": {
@@ -139,7 +248,7 @@
 		"fov": 0.7853981633974483,
 		"useLoaderLayout": false,
 		"fullscreenMode": "letterbox-scale",
-		"fullscreenQuality": "high",
+		"fullscreenQuality": "low",
 		"viewportFit": "auto",
 		"backgroundColor": [
 			0,
